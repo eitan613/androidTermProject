@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">termProject</string>
+    <string name="auto_save">Auto Save</string>
+    <string name="about">About</string>
+    <string name="aboutText">This app shows the (x,y) coordinates of the location you pressed. 0,0 is the top left corner.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
