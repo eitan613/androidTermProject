@@ -15,5 +15,6 @@
         android:gravity="center"
         android:text="position: "
         android:id="@+id/status"
+        android:textColor="@color/locationTextColor"
         />
 </android.support.design.widget.CoordinatorLayout>

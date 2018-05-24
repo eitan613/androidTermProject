@@ -49,13 +49,8 @@ public class MainActivity extends AppCompatActivity {
         x = (int)event.getX();
         y = (int)event.getY();
         position = "Position: X: " + x + "\tY: " + y;
-        TextView tv = ((TextView)findViewById(R.id.status));
-        if (autoSave)//just for fun
-            tv.setTextColor(getResources().getColor(R.color.locationTextColor));
-        else
-            tv.setTextColor(getResources().getColor(R.color.secondaryLocationTextColor));
         if (event.getAction() == MotionEvent.ACTION_DOWN || event.getAction() == MotionEvent.ACTION_MOVE){
-            tv.setText(position);
+            ((TextView)findViewById(R.id.status)).setText(position);
         }
         return false;
     }
